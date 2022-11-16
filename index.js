@@ -29,6 +29,7 @@
 
 //anagram, palindrome, binary tree, valid, sorting
 
+const a= 10
 function fizzbuzz(a){
     let lmao;
     if((a%3)===true && (a%5)===true) {
@@ -41,4 +42,5 @@ function fizzbuzz(a){
         console.log("nill")
     }
 }
-    return console.log(fizzbuzz(5))
+    return console.log(fizzbuzz(a))
+
